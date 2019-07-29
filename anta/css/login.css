@@ -1,0 +1,189 @@
+body {
+	background: #f5f5f5;
+}
+
+section {
+	width: 854px;
+	height: 620px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 125px;
+	left: 525px;
+}
+
+
+.section_top_1 {
+	padding: 50px 0 22px;
+}
+
+.t_c {
+	text-align: center;
+}
+
+.section_s {
+	width: auto;
+	height: 217px;
+}
+
+.section_s1 {
+	width: 358px;
+	height: 217px;
+	margin: 0  auto;
+	padding-bottom: 20px;
+}
+
+form {
+	float: left;
+}
+
+.username-box{
+	margin-bottom: 14px;
+	
+}
+
+.password-box {
+	margin-bottom: 24px;
+}
+
+.us-pw-size {
+	width: 356px;
+	height: 42px;
+}
+
+.username-box input {
+	width: 336px;
+	height: 22px;
+	border: 1px solid #e0e0e0; 
+	padding: 10px;
+	color: #b0b0b0;
+}
+
+.password-box input {
+	width: 336px;
+	height: 22px;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	color: #b0b0b0;
+}
+
+.subimt-box input{
+	width: 356px;
+	height: 50px;
+	background: #d71921;
+	color: #FFFFFF;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+
+.subimt-box {
+	margin-bottom: 53px;
+}
+
+.section_b {
+	height: 150px;
+}
+
+.wz-box {
+	width: 358px;
+	height: 12px;
+	margin: 0 auto;
+}
+
+.dlfs-box {
+	width: 280px;
+	height: 30px;
+	margin: 0 auto;
+	padding-top: 23px;
+	padding-left: 78px;
+}
+
+.dlfs1-box {
+	width: 201px;
+	height: 30px;
+}
+
+.dlfs-box li {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+}
+
+.db_box {
+	width: 247px;
+	height: 25px;
+	margin: 0 auto;
+	padding: 37px 0 0 111px;
+}
+
+.db1_box {
+	width: 135px;
+	height: 15px;
+}
+
+.db1_box a{
+	text-decoration: none;
+	color: #757575;
+	margin:0 8px;
+}
+
+.db1_box a:hover {
+	color: #f99b40;
+}
+
+nav {
+	width: 72px;
+	height: 147px;
+	position: fixed;
+	top: 775px;
+	left: 1790px;
+}
+
+.nav_top {
+	width: 72px;
+	height: 73px;
+	background-color: #fbb01f;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+
+.nav_but {
+	width: 72px;
+	height: 73px;
+	background-color: #d71921;
+	cursor: pointer;
+}
+
+.nav_but3 {
+	width: 160px;
+	height: 73px;
+	background: #d71921;
+	color: #FFFFFF;
+	position: fixed;
+	top: 849px;
+	left: 1630px;
+	text-align: center;
+	line-height: 73px;
+	font-size: 18px;
+}
+
+footer p{
+	color: #b0b0b0;
+}
+
+footer {
+	width: 500px;
+	height: 112px;
+	position: fixed;
+	top: 810px;
+	left: 750px;
+}
+
+footer p:nth-child(2) {
+	padding-left: 90px;
+}
+
+footer p:nth-child(3),footer p:nth-child(4){
+	padding-left: 30px;
+}

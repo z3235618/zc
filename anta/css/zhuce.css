@@ -1,0 +1,167 @@
+body {
+	background: #f5f5f5;
+}
+
+.main {
+	font-size: 14px;
+	color: #b0b0b0;
+}
+
+section {
+	width: 854px;
+	height: 730px;
+	margin: 60px auto 0;
+}
+
+.section_1 {
+	float: left;
+	width: 854px;
+	height: 620px;
+	background: #FFFFFF;
+}
+
+.logo {
+	padding: 50px 0 22px;
+}
+
+.t_c {
+	text-align: center;
+}
+
+.layout {
+	width: 380px;
+	margin: 0 auto;
+}
+
+.zhucefangfa {
+	width: 380px;
+	height: 42px;
+}
+
+.zhucefangfa p{
+	width: 190px;
+	float: left;
+	margin: 0;
+	cursor: pointer;
+}
+
+.phone{
+	background-color: #fbfbfb;
+	color: #999999;
+	height: 35px;
+	line-height: 35px;
+}
+
+.email{
+	background: url(../img/zc_pic1.gif);
+	height: 42px;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+
+.email1,.phone1{
+	height: 40px;
+	color: #666666;
+	margin: 0;
+	line-height: 40px;
+}
+
+form input {
+	float: left;
+	display: inline-block;
+	border: 1px solid #b2b2b2;
+	padding-left: 10px;
+}
+
+form .email2, .password{
+	width: 358px;
+	height: 40px;
+	margin-bottom: 16px;
+}
+
+form .yzm1 {
+	width: 231px;
+	height: 40px;
+	margin-bottom: 61px;
+}
+
+input::-webkit-input-placeholder {
+	color: #b2b2b2;
+}
+
+form .yzm {
+	width: 127px;
+	height: 34px;
+	padding-top: 8px;
+	float: left;
+}
+
+.yzm img{
+	float: right;
+}
+
+form .subimt {
+	width: 370px;
+	height: 46px;
+	background: #d71921;
+	color: #FFFFFF;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+footer {
+	width: 600px;
+	height: 149px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	width: 72px;
+	height: 147px;
+	position: fixed;
+	top: 775px;
+	left: 1790px;
+}
+
+.nav_top {
+	width: 72px;
+	height: 73px;
+	background-color: #fbb01f;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+
+.nav_but {
+	width: 72px;
+	height: 73px;
+	background-color: #d71921;
+	cursor: pointer;
+}
+
+.nav_but3 {
+	width: 160px;
+	height: 73px;
+	background: #d71921;
+	color: #FFFFFF;
+	position: fixed;
+	top: 849px;
+	left: 1630px;
+	text-align: center;
+	line-height: 73px;
+	font-size: 18px;
+}
+
+footer p{
+	color: #b0b0b0;
+}
+
+footer p:nth-child(2) {
+	padding-left: 90px;
+}
+
+footer p:nth-child(3),footer p:nth-child(4){
+	padding-left: 30px;
+}
+

@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.main {
+	width: 1920px;
+	margin:0 auto;
+	height: 8000px;
+	background-color: #f0f0f0;
+	
+}
+
+.header{
+	width: 100%;
+	height: 24px;
+	background: black;
+	font-size: 8px;
+	color: white;
+	
+}
+
+.head_t {
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 449px;
+	letter-spacing:1px;
+}
+
+.span1{
+	background: #d71921;
+}
+
+.span2{
+	background: #656565;
+}
+
+.span2:hover {
+	background: #d71921;
+}
+
+
+.head_t span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	margin:0 2px;
+	line-height: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sec {
+	width: 1920px;
+	height: 600px;
+	position: relative;
+}
+
+.sec1 {
+	width: 6000px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: -3840px;
+}
+
+.sec1 li {
+	float: left;
+	display: flex;
+}
+
+section {
+	margin: 25px auto 0;
+	width: 625px;
+	height: 304px;
+}
+
+.s{
+		margin-right: 25px;
+}
+
+.ses1 {
+	float: left;
+	width: 300px;
+	height: 304px;
+
+}
+
+.ses1 li:nth-child(2) {
+	font-size: 28px;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 12px;
+}
+
+.bac1 {
+	font-size: 16px;
+	margin-left: 100px;
+	padding-left: 30px;
+	background: url(../img/jiantou.gif)no-repeat;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.bac1:hover {
+	color: #e42028;
+	background: url(../img/jiantou1.gif)no-repeat;
+	cursor: pointer;
+}
+
+.bac1{
+	width: 21px;
+	height: 19px;
+	
+	
+}
+
+.ses2 {
+	float: left;
+	width: 300px;
+	height: 304px;
+	background: black;
+}
+
+.guanzhu{
+	margin: 0 auto;
+	width: 940px;
+	height: 75px;
+	border-bottom: 1px solid #c1c9cf;
+}
+
+.gz_t {
+	float: left;
+	height:30px;
+	font-size: 24px;
+	color: #686868;
+	line-height: 30px;
+	
+}
+
+.gz_t img {
+	vertical-align: middle;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.gz_b {
+	float: left;
+	width: 940px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.gz_b input{
+	width: 66px;
+	height: 29px;
+	line-height: 20px;
+	margin-left: 4px;
+	border: 0;
+	background: url(../img/share_more_bg.png);
+}
+
+.gz_b input:hover {
+	color: #e42028;
+}
